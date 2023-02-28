@@ -1,11 +1,7 @@
 function App() {
-  const handleClick = () => {
-    console.log('Button was clicked!');
-  };
-
   return (
     <div>
-      <button onClick={handleClick}>Add Animal</button>
+      <button onClick={() => console.log('Hello there!')}>Click Me!</button>
     </div>
   );
 }
